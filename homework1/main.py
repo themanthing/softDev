@@ -1,8 +1,9 @@
-# import sys
-# sys.path.append(r'/import_monster')
-import import_monster.mod
-from import_monster.mod import s
-from import_monster.monster import methods_importer
-# print(s)
+from homework1 import a
+from homework1 import b
+from homework1.import_monster.monster import methods_importer
+
 # print(dir())
-print(methods_importer(s, import_monster.mod))
+print(methods_importer("s", [a, b]))
+print(methods_importer("a", [a]))
+print(methods_importer("foo", [a, b]))
+print(methods_importer("Foo", [a]))
