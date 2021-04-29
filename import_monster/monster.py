@@ -18,7 +18,6 @@ def methods_importer(
                 raise TypeError("Must be list of strings or ModuleType")
 
             met = getattr(mod, method_name, None)
-            # print(isinstance(met,Callable))
             if isinstance(met, Callable):
                 such_objects.append(met)
 
