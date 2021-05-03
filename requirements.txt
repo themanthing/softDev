@@ -1,7 +1,1 @@
-scipy
-
-pre-commit==2.11.1
-black==20.8b1
-pylint==2.3.1
-isort
-flake8
+pre-commit

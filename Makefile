@@ -1,9 +1,9 @@
 PACKAGES="seminar_package"
 
-all: install black
+# all: install black
 
-black:
-	@black ${PACKAGES}
+# black:
+# 	@black ${PACKAGES}
 
 clean:
 	@rm -rf `find . -name __pycache__`
